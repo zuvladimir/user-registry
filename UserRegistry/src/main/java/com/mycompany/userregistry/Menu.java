@@ -36,6 +36,7 @@ public class Menu {
                     out.println(menuItem);
                 });
                 out.println("-----------------------------------------------------");
+                
                 String enteredText = br.readLine().trim();
                 if (!enteredText.matches("^[0-9]+$")) {
                     out.println("Выбранный пункт меню не существует!");
