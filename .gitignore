@@ -1,3 +1,13 @@
+target
+build
+bin
+.idea
+.metadata
+.project
+.classpath
+
+nbactions.xml
+
 # Compiled class file
 *.class
 
